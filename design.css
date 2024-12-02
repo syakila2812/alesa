@@ -1,0 +1,227 @@
+
+
+*{
+  box-sizing: border-box;
+}
+ body {
+  font-family: Lucida Console, Times New Roman;
+}
+
+.article, #Home {
+  background: url(dark.jpg) no-repeat center; 
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+.article, #Biodata {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-image: url("pin.jpg");
+  height: 700px;
+}
+.article, #Family {
+  float: left;
+  width: 100%;
+  background-image: url("cute2.gif");
+  height: 800px;
+}
+.article, #Education {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color:lightgray;
+  height: 1400px;
+}
+.article, #Experience {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-image: url("fly2.gif");
+  height: 1400px;
+}
+.article, #Gallery {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: black;
+  height: 300px;
+}
+
+.article, #Contact {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: lightblue;
+  height: 200px;
+}
+
+
+.other-list ul,li {
+margin-left:20px;
+text-align:left;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+#rcorners3 {
+  border-radius: 30px;
+  background: url(cute2.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 450px;
+  height: 155px;  
+
+}
+
+.img {
+float: right;
+margin-right: 20px;
+margin-bottom: 5px;
+border-style: inset;
+padding: 3px;
+box-shadow: 10px black
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+p.biodata {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+  font-size: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+table th{
+	font-style: Acme;
+	background: Violet;
+	text-align:left;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+footer{
+ width: 100%;
+ background-color: black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #55ACEE;
+  color: black;
+}
+
+.fa-spotify {
+  baackground: black;
+  color: white;
+}
